@@ -6,7 +6,7 @@ import './TripList.css'
 
 export default function TripList() {
     // const [trips, setTrips] = useState([])
-    const [url, setUrl] = useState('http://localhost:3000/kygkjhg')
+    const [url, setUrl] = useState('http://localhost:3000/trips')
     const { data: trips, isPending, error } = useFetch(url)
 
     // const fetchTrips = useCallback (async () => {
